@@ -1,11 +1,11 @@
 # LinkCutSpanningTrees 0.1.0-alpha
 
 Implementation of algorithms for generating uniform spanning trees. This
-package contains three algorithms. A simple random walk, Wilson's algorithm
-([Wilson]) and the edge swap Markov chain implemented with link-cut trees
-([paper],[arxiv]). The main goal of these prototypes is to compare the
-performance of the respective algorithms. Hence they are provided with a
-simple cli interface.
+package contains three algorithms. A simple random walk
+([Broder],[Aldous]), Wilson's algorithm ([Wilson]) and the edge swap Markov
+chain implemented with link-cut trees ([paper],[arxiv]). The main goal of
+these prototypes is to compare the performance of the respective
+algorithms. Hence they are provided with a simple cli interface.
 
 ## Table of contents
 
@@ -221,6 +221,8 @@ UID/CEC/50021/2013.
 [CGM]: https://arxiv.org/abs/1903.06081
 [AGV]: https://arxiv.org/abs/2004.07220
 [FCT]: https://www.fct.pt/
+[Broder]: https://www.cs.cmu.edu/~15859n/RelatedWork/Broder-GenRanSpanningTrees.pdf
+[Aldous]: https://doi.org/10.1137/0403039
 
 [Debian]: https://www.debian.org/
 [gcc]: https://gcc.gnu.org/
