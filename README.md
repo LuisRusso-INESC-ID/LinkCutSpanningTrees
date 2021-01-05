@@ -139,7 +139,7 @@ the graph representation `cat K5`
 The first line gives general graph parameters. The first number is the
 number of vertexes and second number the number of edges. All the numbers
 in the file must be integers. In this example the graph has 5 vertexes and
-15 edges. Each one of the next 15 lines contains an edge description, which
+10 edges. Each one of the next 10 lines contains an edge description, which
 is a pair of vertexes in any order, separated by a space. The vertexes are
 numbered starting at `1`.
 
